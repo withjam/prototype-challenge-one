@@ -24,7 +24,8 @@ In this challenge, we would like you to build the front-end of a small web page 
 
 ### Getting Started
 
--   Fork this repo
+-   Clone this repo
 -   Create a new branch using naming: `First-Last-Front-End-Challenge`
 -   Upon completion of the project, commit your changes and push into origin.
--   Share your forked repo with sandstrom.kyle@mayo.edu and truhler.josephine@mayo.edu.
+-   You should then see a Pull Request
+-   Email sandstrom.kyle@mayo.edu and truhler.josephine@mayo.edu to notify them you are done with the challenge.
