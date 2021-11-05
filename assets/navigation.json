@@ -1,0 +1,24 @@
+{
+    "navigation":[
+        {
+            "name": "Program Features",
+            "url": "https://someurl.com/program-features"
+        },
+        {
+            "name": "Group Support",
+            "url": "https://someurl.com/group-support"
+        },
+        {
+            "name": "About Our Company",
+            "url": "https://someurl.com/about"
+        },
+        {
+            "name": "Resources",
+            "url": "https://someurl.com/resources"
+        },
+        {
+            "name": "Contact Us",
+            "url": "https://someurl.com/contact"
+        }
+    ]
+}
