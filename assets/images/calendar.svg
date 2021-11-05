@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="30px" viewBox="0 0 27 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mask</title>
+    <defs>
+        <path d="M238.5,49.150641 L238.5,52.150641 L226.5,52.150641 L226.5,49.150641 L223.5,49.150641 L223.5,52.150641 L222,52.150641 C220.335,52.150641 219.015,53.500641 219.015,55.150641 L219,76.150641 C219,77.800641 220.335,79.150641 222,79.150641 L243,79.150641 C244.65,79.150641 246,77.800641 246,76.150641 L246,55.150641 C246,53.500641 244.65,52.150641 243,52.150641 L241.5,52.150641 L241.5,49.150641 L238.5,49.150641 L238.5,49.150641 Z M243,76.150641 L222,76.150641 L222,59.650641 L243,59.650641 L243,76.150641 L243,76.150641 Z" id="path-1"></path>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1031.000000, -2551.000000)">
+            <g id="email-signup" transform="translate(92.000000, 2082.000000)">
+                <g id="Form" transform="translate(720.000000, 119.849359)">
+                    <g id="email-copy" transform="translate(0.000000, 300.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#0057B8" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
