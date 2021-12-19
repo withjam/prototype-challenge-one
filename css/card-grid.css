@@ -3,6 +3,7 @@
   background-color: var(--lightest-grey);
   padding-top: 100px;
   padding-left: 0;
+  padding-bottom: 100px;
   padding-right: 0;
 }
 
@@ -48,7 +49,6 @@
   max-height: 480px;
   margin-bottom: 30px;
   overflow: hidden;
-  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
@@ -105,10 +105,11 @@
 .card-cta {
   text-decoration: none;
   color: var(--blue);
+  cursor: pointer;
   transition: color .25s ease-in-out;
 }
 
-/* .card-cta:hover {
+.card-cta:hover {
   color: var(--black);
 }
 
@@ -118,4 +119,4 @@
 
 .card-cta:hover span {
   padding-left: 3px;
-} */
+}

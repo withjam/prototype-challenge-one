@@ -2,8 +2,6 @@
   width: 100%;
   height: auto;
   min-height: 700px;
-  /* padding-left: 24px;
-  padding-right: 24px; */
   margin-bottom: 100px;
   overflow: hidden;
 }
@@ -11,8 +9,6 @@
 @media only screen and (min-width: 768px) {
   .checker-board {
     height: 615px;
-    /* padding-left: 0;
-    padding-right: 0; */
     margin-bottom: 24px;
   }
 }
@@ -53,10 +49,6 @@
 .checker-board-image picture {
   display: flex;
 }
-
-/* .checker-board-image picture img {
-  width: 100%;
-} */
 
 .checker-board-image--solid-bg {
   display: flex;

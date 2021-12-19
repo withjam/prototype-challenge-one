@@ -15,10 +15,6 @@ body {
   overflow: scroll;
 }
 
-body.menu-open {
-  /* overflow: hidden; */
-}
-
 .preload * {
   -webkit-transition: none !important;
   -moz-transition: none !important;
@@ -30,11 +26,6 @@ body.menu-open {
   position: relative;
   overflow: hidden;
 }
-
-/* .wrapper {
-  max-width: 1440px;
-  margin: auto;
-} */
 
 section {
   max-width: 1440px;
@@ -49,15 +40,3 @@ section {
     padding-right: 90px;
   } 
 }
-
-/* .content-wrapper {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-@media only screen and (min-width: 768px) {
-  .content-wrapper {
-    margin-left: 90px;
-    margin-right: 90px;
-  }
-} */

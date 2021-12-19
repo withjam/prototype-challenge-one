@@ -86,7 +86,7 @@ header {
 
 .navigation-link:hover {
   transform: translateY(-2px);
-  color: var(--medium-grey);
+  color: var(--blue);
 }
 
 .navigation-link span {

@@ -13,7 +13,7 @@
             <div class="brand-logo-wrapper">
                 <img src="assets/images/logo.svg" class="brand-logo" alt="logoipsum brand logo" />
             </div>
-            <nav class="navigation">
+            <nav class="navigation" role="navigation">
                 <ul class="navigation-links"></ul>
             </nav>
             <button class="menu-button" type="button" aria-label="open side menu">MENU</button>
@@ -47,7 +47,7 @@
                             <picture>
                                 <source srcset="assets/images/photo-8.jpg" media="(min-width: 768px)">
                                 <source srcset="assets/images/photo-8-366x366.jpg" media="(min-width: 375px)">
-                                <img src="assets/images/photo-8.jpg" alt="playful couple"> 
+                                <img src="assets/images/photo-8.jpg" alt="woman getting her hat pulled over her eyes by her friend"> 
                             </picture>
                         </div>
                         <div class="checker-board-copy-lockup-wrapper">
@@ -68,7 +68,7 @@
                             <picture>
                                 <source srcset="assets/images/photo-9.jpg" media="(min-width: 768px)">
                                 <source srcset="assets/images/photo-9-366x366.jpg" media="(min-width: 375px)">
-                                <img src="assets/images/photo-9.jpg" alt="person tying shoe"> 
+                                <img src="assets/images/photo-9.jpg" alt="person tying their shoe in the snow"> 
                             </picture>
                         </div>
                         <div class="checker-board-copy-lockup-wrapper">
@@ -92,7 +92,7 @@
                             <div class="checker-board-copy-lockup">
                                 <h2 class="headline headline--checker-board">Sign up for email</h2>
                                 <div class="checker-board-form-wrapper">
-                                    <form onsubmit="return false;" class="checker-board-form">
+                                    <form onsubmit="return false;" class="checker-board-form" aria-label="sign up for email">
                                         <label class="checker-board-form-element">
                                             <span>Email</span>
                                             <input type="email" name="email">
@@ -117,7 +117,7 @@
                                     <picture>
                                         <source srcset="assets/images/photo-1.jpg" media="(min-width: 768px)">
                                         <source srcset="assets/images/photo-1-175x175.jpg" media="(min-width: 375px)">
-                                        <img src="assets/images/photo-1.jpg" alt="boxer taping hands"> 
+                                        <img src="assets/images/photo-1.jpg" alt="boxer hands wrapped"> 
                                     </picture>
                                 </div>
                                 <div class="card-copy-lockup">
@@ -149,7 +149,7 @@
                                     <picture>
                                         <source srcset="assets/images/photo-3.jpg" media="(min-width: 768px)">
                                         <source srcset="assets/images/photo-3-175x175.jpg" media="(min-width: 375px)">
-                                        <img src="assets/images/photo-3.jpg" alt="person taking supplements"> 
+                                        <img src="assets/images/photo-3.jpg" alt="person pouring tablets out of a bottle into their hand"> 
                                     </picture>
                                 </div>
                                 <div class="card-copy-lockup">
@@ -165,7 +165,7 @@
                                     <picture>
                                         <source srcset="assets/images/photo-4.jpg" media="(min-width: 768px)">
                                         <source srcset="assets/images/photo-4-175x175.jpg" media="(min-width: 375px)">
-                                        <img src="assets/images/photo-4.jpg" alt="city view"> 
+                                        <img src="assets/images/photo-4.jpg" alt="city view facing the sun"> 
                                     </picture>
                                 </div>
                                 <div class="card-copy-lockup">
@@ -181,7 +181,7 @@
                                     <picture>
                                         <source srcset="assets/images/photo-5.jpg" media="(min-width: 768px)">
                                         <source srcset="assets/images/photo-5-175x175.jpg" media="(min-width: 375px)">
-                                        <img src="assets/images/photo-5.jpg" alt="person walking away"> 
+                                        <img src="assets/images/photo-5.jpg" alt="person walking away down a narrow street"> 
                                     </picture>
                                 </div>
                                 <div class="card-copy-lockup">
@@ -197,7 +197,7 @@
                                     <picture>
                                         <source srcset="assets/images/photo-6.jpg" media="(min-width: 768px)">
                                         <source srcset="assets/images/photo-6-175x175.jpg" media="(min-width: 375px)">
-                                        <img src="assets/images/photo-6.jpg" alt="striped wall"> 
+                                        <img src="assets/images/photo-6.jpg" alt="striped painted wall"> 
                                     </picture>
                                 </div>
                                 <div class="card-copy-lockup">
@@ -213,7 +213,25 @@
                 </section>
             </div>
         </main>
-        <footer class="footer"></footer>
+        <footer>
+            <section class="footer-wrapper">
+                <div class="back-to-top">
+                    <div class="footer-inner">
+                        <button type="button" class="back-to-top-button-text" alt="back to top button text" aria-label="scroll to top">Back to top</p>
+                        <button type="button" class="back-to-top-button-icon" alt="back to top button icon" aria-label="scroll to top"><img src="assets/images/back-to-top.svg" width="12" height="14" alt="back to top arrow" /></button>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div class="footer-inner">
+                        <p>Nunc efficitur quam leo, ac tincidunt velit lobortis id. Etiam nec mi pellentesque, iaculis arcu et, 
+                            eleifend nisl. Donec tempus pretium turpis non consequat. Phasellus finibus finibus dolor et tristique. 
+                            Curabitur elementum, nulla ut facilisis blandit, eros massa varius metus, ut laoreet massa nunc quis lectus.
+                        </p>
+                        <p>&copy; 1998-2020 XYZ Company. All rights reserved.</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
     </div>
 </body>
 <script src="js/index.js"></script>

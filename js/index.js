@@ -2,6 +2,7 @@ class Main {
     init() {
         this.menuLinksWrapper = document.querySelector('.menu-links-wrapper');
         this.body = document.querySelector('body');
+        this.rootElement = document.documentElement;
         
         this.getNavData();
         this.bindEvents();
@@ -10,7 +11,8 @@ class Main {
     bindEvents() {
         const menuBtn = document.querySelector('.menu-button');
         const closeBtn = document.querySelector('.menu-top-button--right');
-        const menuLinksWrapper = document.querySelector('.menu-links-wrapper');
+        const backToTopText = document.querySelector('.back-to-top-button-text');
+        const backToTopIcon = document.querySelector('.back-to-top-button-icon');
 
         closeBtn.addEventListener('click', () => {
             if (this.menuLinksWrapper.classList.contains('is-active')) {
@@ -30,7 +32,21 @@ class Main {
             if (!this.body.classList.contains('menu-open')) {
                 this.body.classList.add('menu-open');
             }
-        })
+        });
+
+        backToTopText.addEventListener('click', () => {
+            this.rootElement.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        backToTopIcon.addEventListener('click', () => {
+            this.rootElement.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
     }
 
     getNavData() {
