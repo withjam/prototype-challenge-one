@@ -1,0 +1,50 @@
+.headline {
+  font-family: Georgia;
+  font-size: 44px;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .headline {
+    font-size: 70px;
+  }
+}
+
+.subheadline {
+  font-family: SourceSansPro-Regular;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .subheadline {
+    font-size: 23px;
+  }
+}
+
+.cta {
+  cursor: pointer;
+  font-family: SourceSansPro-Regular;
+  font-size: 18px;
+  width: 250px;
+  height: 55px;
+  background-color: transparent;
+  color: var(--black);
+  border: 1px solid var(--black);
+  border-radius: 55px;
+  transition: all .25s ease-out;
+}
+
+@media only screen and (min-width: 1200px) {
+  .cta {
+    width: 296px;
+  }
+}
+
+.cta:hover {
+  background-color: var(--white);
+  border-color: var(--white);
+}

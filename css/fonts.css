@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "SourceSansPro-Black";
+  src: url("../assets/fonts/SourceSansPro-Black.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-Black.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-BlackItalic";
+  src: url("../assets/fonts/SourceSansPro-BlackItalic.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-BlackItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-Bold";
+  src: url("../assets/fonts/SourceSansPro-Bold.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-BoldItalic";
+  src: url("../assets/fonts/SourceSansPro-BoldItalic.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-BoldItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-ExtraLight";
+  src: url("../assets/fonts/SourceSansPro-ExtraLight.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-ExtraLight.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-ExtraLightItalic";
+  src: url("../assets/fonts/SourceSansPro-ExtraLightItalic.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-ExtraLightItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-Italic";
+  src: url("../assets/fonts/SourceSansPro-Italic.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-Light";
+  src: url("../assets/fonts/SourceSansPro-Light.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-LightItalic";
+  src: url("../assets/fonts/SourceSansPro-LightItalic.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-LightItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: url("../assets/fonts/SourceSansPro-Regular.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: url("../assets/fonts/SourceSansPro-SemiBold.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-SemiBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro-SemiBoldItalic";
+  src: url("../assets/fonts/SourceSansPro-SemiBoldItalic.woff") format("woff");
+  src: url("../assets/fonts/SourceSansPro-SemiBoldItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,69 @@
+.hero-banner {
+  margin-top: 0;
+  margin-bottom: 24px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-banner {
+    margin-top: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
+
+.hero-banner-wrapper {
+  position: relative;
+  background-image: url("../assets/images/photo-hero-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 622px;
+  box-shadow: 0px -400px 124px -75px rgba(0,0,0,0.7) inset;
+  -webkit-box-shadow: 0px -400px 124px -75px rgba(0,0,0,0.7) inset;
+  -moz-box-shadow: 0px -400px 124px -75px rgba(0,0,0,0.7) inset;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-banner-wrapper {
+    background-image: url("../assets/images/photo-hero-desktop.jpg");
+  }
+}
+
+.hero-banner-lockup-wrapper {
+  position: absolute;
+  max-width: 50%;
+  bottom: 0;
+  margin-left: 24px;
+  margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-banner-lockup-wrapper {
+    margin-left: 80px;
+    margin-bottom: 85px;
+  }
+}
+
+.hero-banner-lockup {
+  color: var(--white);
+}
+
+.cta--hero-banner {
+  border-color: var(--white);
+  color: var(--white);
+  width: 270px;
+}
+
+@media only screen and (min-width: 768px) {
+  .cta--hero-banner {
+    width: 296px;
+  }
+}
+
+.cta--hero-banner:hover {
+  background-color: var(--white);
+  border-color: var(--black);
+  color: var(--black);
+}

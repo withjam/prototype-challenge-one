@@ -1,0 +1,199 @@
+.checker-board {
+  width: 100%;
+  height: auto;
+  min-height: 700px;
+  /* padding-left: 24px;
+  padding-right: 24px; */
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  .checker-board {
+    height: 615px;
+    /* padding-left: 0;
+    padding-right: 0; */
+    margin-bottom: 24px;
+  }
+}
+
+/* Wrapper */
+.checker-board-wrapper {
+  display: block;
+  flex-direction: unset;
+  height: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  .checker-board-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.checker-board-wrapper--reverse {
+  flex-direction: row-reverse;
+}
+
+/* Image */
+.checker-board-image {
+  width: 100%;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  .checker-board-image {
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
+
+.checker-board-image picture {
+  display: flex;
+}
+
+/* .checker-board-image picture img {
+  width: 100%;
+} */
+
+.checker-board-image--solid-bg {
+  display: flex;
+  background-color: var(--sky-blue);
+  width: 100%;
+  max-width: 366px;
+  height: 366px;
+}
+
+@media only screen and (min-width: 768px) {
+  .checker-board-image--solid-bg {
+    width: 50%;
+    max-width: 624px;
+    height: 614px;
+  }
+}
+
+.checker-board-plane {
+  margin: auto;
+  width: 112px;
+  height: 96px;
+}
+
+/* Lockup */
+.checker-board-copy-lockup-wrapper {
+  display: flex;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .checker-board-copy-lockup-wrapper {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .checker-board-copy-lockup-wrapper {
+    padding-left: 90px;
+    padding-right: 20px;
+  }
+}
+
+.checker-board-wrapper--reverse .checker-board-copy-lockup-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .checker-board-wrapper--reverse .checker-board-copy-lockup-wrapper {
+    padding-left: 50px;
+    padding-right: 60px;
+  }
+}
+
+.checker-board-copy-lockup {
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .checker-board-copy-lockup {
+    margin: auto;
+  }
+}
+
+.headline--checker-board {
+  font-size: 44px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .headline--checker-board {
+    font-size: 70px;
+  }
+}
+
+.subheadline--checker-board {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .subheadline--checker-board {
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .subheadline--checker-board {
+    font-size: 23px;
+    margin-bottom: 40px;
+  }
+}
+
+.cta--checker-board:hover {
+  background-color: var(--blue);
+  border-color: var(--blue);
+  color: var(--white);
+}
+
+.checker-board-form-element,
+.checker-board-form-element span {
+  display: block;
+}
+
+.checker-board-form-element span {
+  font-size: 23px;
+}
+
+.checker-board-form-element input {
+  width: 100%;
+  height: 56px;
+  padding: 12px 14px 12px 14px;
+  margin-bottom: 7px;
+  font-size: 16px;
+  border-color: var(--medium-grey);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.checker-board-form-element input.checker-board-form-date {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .checker-board-form-element input.checker-board-form-date {
+    width: 50%;
+  }
+}
+
+.checker-board-form-date::-webkit-calendar-picker-indicator {
+  width: 21px;
+  height: 29px;
+  background: url("../assets/images/calendar.svg");
+}
