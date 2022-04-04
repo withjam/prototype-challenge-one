@@ -1,0 +1,96 @@
+:root {
+	--border-color-primary: #e6e6e6;
+	--page-gutter: clamp(1.43rem, 5vw, 5rem);
+	--menu-color: #000;
+	--on-menu: #fff;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+#header {
+	border-bottom: solid 1px var(--border-color-primary);
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+#header menu {
+	border-block-start: solid 1px var(--border-color-primary);
+	display: flex;
+	flex-direction: column;
+	align-self: stretch;
+	background-color: red;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	font-size: clamp(1.325rem, -0.875rem + 8.333vw, 2.188rem);
+}
+
+#header nav a {
+	line-height: 1.25;
+	padding: 0.125em;
+	display: block;
+}
+
+#header menu header {
+	font-size: 0.518em;
+}
+
+#logo {
+	margin-inline: var(--page-gutter);
+	margin-block: 2.25rem;
+	width: clamp(11.063rem, 30%, 14.688rem);
+	min-height: 0vw;
+}
+
+#logo img {
+	width: 100%;
+	height: auto;
+}
+
+#sidebar {
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: clamp(315px, 100%, 37.06rem);
+	background-color: var(--menu-color);
+	padding-inline-start: clamp(3rem, 10vw, 8.5rem);
+	padding-inline-end: clamp(3rem, 10vh, 6rem);
+}
+
+#sidebar > header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding-block: 2.313rem;
+}
+
+#sidebar > header button {
+	background-color: transparent;
+	border: none;
+	color: var(--on-menu);
+	text-transform: uppercase;
+}
+
+#sidebar a {
+	color: var(--on-menu);
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

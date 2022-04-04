@@ -1,0 +1,9 @@
+{
+	"name": "matt-pileggi-prototype-challenge",
+	"version": "1.0.0",
+	"description": "In this challenge, we would like you to build the front-end of a small web page from a prototype currently in Sketch.",
+	"private": true,
+	"scripts": {
+		"start": "npx http-server -c-1"
+	}
+}
