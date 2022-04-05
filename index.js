@@ -15,6 +15,16 @@ const loadNavigation = async () => {
     return loadNavigation._navigation;
 }
 
+function openSidebar() {
+    const navContainer = document.getElementById('sidebar');
+    navContainer.classList.add('open');
+}
+
+function closeSidebar() {
+    const navContainer = document.getElementById('sidebar');
+    navContainer.classList.remove('open');
+}
+
 // load the page
 (async function () {
     document.body.classList.add('loading');
@@ -33,3 +43,6 @@ const loadNavigation = async () => {
         navContainer.appendChild(navList);
     }
 })();
+
+window.openSidebar = openSidebar;
+window.closeSidebar = closeSidebar;
