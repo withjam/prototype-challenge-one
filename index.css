@@ -214,7 +214,7 @@ main > article > header {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	padding-block: clamp(2rem, 10vw, 5rem);
+	padding-block: 5rem;
 }
 main > article > .art {
 	grid-row: 1;
@@ -353,7 +353,8 @@ form input[type="email"] {
 }
 
 #footer p {
-	width: clamp(315px, 100%, 31rem);
+	width: 100%;
+	max-width: 31rem;
 }
 
 @media screen and (min-width: 62.5rem) {
@@ -367,16 +368,13 @@ form input[type="email"] {
 	main > article > header {
 		grid-column: 2;
 		grid-row: 1;
-		padding: clamp(2rem, 10vw, 5rem);
+		padding-inline-start: 5rem;
 	}
 	main > article > .art {
 		grid-column: 1;
 	}
-	main > article:nth-child(odd):not(.hero) > header {
-		grid-column: 1;
-	}
-	main > article:nth-child(odd):not(.hero) > .art {
-		grid-column: 2;
+	main > article:nth-child(odd):not(.hero) {
+		direction: rtl;
 	}
 	.gallery > article {
 		flex-basis: 33%;
