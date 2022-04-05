@@ -1,6 +1,11 @@
 @font-face {
 	font-family: "SourceSansPro";
 	src: url("/assets/fonts/SourceSansPro-Regular.woff2") format("woff2"), url("/assets/fonts/SourceSansPro-Regular.woff") format("woff");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SourceSansPro-Bold";
 	src: url("/assets/fonts/SourceSansPro-Bold.woff2") format("woff2"), url("/assets/fonts/SourceSansPro-Bold.woff") format("woff");
 	font-display: swap;
 }
@@ -38,7 +43,7 @@ h1 {
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 
@@ -90,6 +95,7 @@ a.learn:after {
 }
 
 #header menu > button {
+	font-family: SourceSansPro-Bold, Georgia, sans-serif;
 	background-color: transparent;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -153,7 +159,7 @@ a.learn:after {
 	border: none;
 	color: var(--on-menu);
 	text-transform: uppercase;
-	font-family: SourceSansPro, Georgia, sans-serif;
+	font-family: SourceSansPro-Bold, Georgia, sans-serif;
 	font-weight: 700;
 	font-size: 0.875em;
 }
@@ -242,9 +248,9 @@ main > article.hero > header {
 
 main > article > header h1 {
 	font-size: clamp(2.75rem, 10vw, 4.313rem);
-	margin: 0;
+	margin: 0 0 0.25em 0;
 	padding: 0;
-	line-height: 1.25;
+	line-height: 1;
 }
 main > article > header h2 {
 	font-size: 1.125em;
@@ -301,13 +307,14 @@ form input[type="email"] {
 
 .gallery > article h1 {
 	font-size: clamp(1.438rem, -0.875rem + 8.333vw, 1.813rem);
-	margin-block-end: 0.875em;
+	margin-block-end: 0.575em;
 }
 .gallery > article h2 {
 	font-size: 1em;
 	font-weight: 400;
 	color: var(--lighter);
 	margin-block: 0;
+	line-height: 1.5;
 }
 
 .gallery > article .art {
