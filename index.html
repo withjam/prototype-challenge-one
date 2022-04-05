@@ -1,22 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Matt Pileggi - Prototype</title>
         <base href="/"/>
         <link rel="stylesheet" href="index.css"/>
     </head>
     <body>
         <header id="header">
-            <img src="/assets/images/logo.svg" alt="logoipsum - a logo of interlacing widgets" id="logo">
+            <img src="/assets/images/logo.svg" alt="logoipsum - a logo of interlacing widgets" id="logo" width="300" height="59">
             <menu>
                 <button onclick="openSidebar()">Menu</button>
-                <aside id="sidebar">
+                <div id="sidebar">
                     <header>
                         <a href="/">Home</a>
                         <button type="reset" onclick="closeSidebar()" >close</button>
                     </header>
                     <nav id="navigation">
                     </nav>
-                </aside>
+                </div>
             </menu>
         </header>
         <main>
@@ -24,42 +26,46 @@
                 <header>
                     <h1>Lorem Ipsum</h1>
                     <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in dui ut eros egestas eleifend ac vitae lorem.</h2>
-                    <a class="cta">Program Features</a>
+                    <a class="cta" tabindex="0">Program Features</a>
                 </header>
                 <picture class="art">
-                    <source media="(min-width: 62.5rem)" srcset="/assets/images/photo-hero-desktop.jpg">
-                    <img src="/assets/images/photo-hero-mobile.png" alt>
+                    <source media="(min-width: 62.5rem)" srcset="/assets/images/photo-hero-desktop.jpg" width="2528" height="1244">
+                    <img src="/assets/images/photo-hero-mobile.png" width="828" height="1146" alt>
                 </picture>
             </article>
             <article>
                 <header>
                     <h1>You're not alone</h1>
                     <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in dui ut eros egestas eleifend ac vitae lorem.</h2>
-                    <a class="cta">Group Support</a>
+                    <a class="cta" tabindex="0">Group Support</a>
                 </header>
                 <section class="art">
-                    <img src="/assets/images/photo-8.jpg" alt>
+                    <img src="/assets/images/photo-8.jpg" width="1228" height="1248" alt>
                 </section>
             </article>
             <article>
                 <header>
                     <h1>Take it with you</h1>
                     <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in dui ut eros egestas eleifend ac vitae lorem.</h2>
-                    <a class="cta">Video & Downloads</a>
+                    <a class="cta" tabindex="0">Video & Downloads</a>
                 </header>
                 <section class="art">
-                    <img src="/assets/images/photo-9.jpg" alt>
+                    <img src="/assets/images/photo-9.jpg" width="1228" height="1248" alt>
                 </section>
             </article>
             <article class="signup">
                 <header>
                     <h1>Sign up for email</h1>
-                    <form>
+                    <form method="POST" target="_blank" action="https://echo.zuplo.io/" enctype="application/x-www-form-urlencoded">
+                        <label for="email">Email</label>
+                        <input name="email" id="email" type="email">
+                        <label for="dob">Date of Birth</label>
+                        <input name="dob" id="dob" type="date">
                     <button type="submit" class="cta">Sign up</button>
                     </form>
                 </header>
                 <section class="art">
-                    <img src="/assets/images/airplane.svg" alt>
+                    <img src="/assets/images/airplane.svg" width="1228" height="1248" alt>
                 </section>
             </article>
             <section class="gallery">
@@ -83,7 +89,7 @@
                         <a class="learn">Learn</a>
                     </header>
                     <picture class="art">
-                        <img src="/assets/images/photo-gallery-1.jpg" alt="" />
+                        <img src="/assets/images/photo-gallery-1.jpg"  width="407" height="300" alt="" />
                     </picture>
                 </article>
                 <article>

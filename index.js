@@ -1,11 +1,9 @@
 const loadNavigation = async () => {
     if (!loadNavigation._navigation) {
-        console.log('fetching');
         try {
             const resp = await fetch('/navigation.json');
             const json = await resp.json();
             const { navigation } = json;
-            console.log('got json', json);
             // memoize it
             loadNavigation._navigation = navigation;
         } catch(ex) {
@@ -46,3 +44,9 @@ function closeSidebar() {
 
 window.openSidebar = openSidebar;
 window.closeSidebar = closeSidebar;
+
+document.addEventListener('keyup', ev => {
+    if (ev.key === 'Escape') {
+        window.closeSidebar();
+    }
+})
