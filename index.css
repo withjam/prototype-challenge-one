@@ -338,9 +338,18 @@ form input[type="email"] {
 	padding-block-end: 14rem;
 }
 
-#footer a {
+#footer .actions {
 	border-bottom: solid 1px #707070;
-	padding-block: 1.5em;
+	padding-block: 1em;
+}
+
+#footer button {
+	background-color: transparent;
+	padding: 0.5em 0;
+	border: none;
+	color: #fff;
+	display: inline;
+	cursor: pointer;
 }
 
 #footer p {
