@@ -1,7 +1,7 @@
 const loadNavigation = async () => {
     if (!loadNavigation._navigation) {
         try {
-            const resp = await fetch('/navigation.json');
+            const resp = await fetch('navigation.json');
             const json = await resp.json();
             const { navigation } = json;
             // memoize it
