@@ -1,12 +1,12 @@
 @font-face {
 	font-family: "SourceSansPro";
-	src: url("/assets/fonts/SourceSansPro-Regular.woff2") format("woff2"), url("/assets/fonts/SourceSansPro-Regular.woff") format("woff");
+	src: url("../assets/fonts/SourceSansPro-Regular.woff2") format("woff2"), url("../assets/fonts/SourceSansPro-Regular.woff") format("woff");
 	font-display: swap;
 }
 
 @font-face {
 	font-family: "SourceSansPro-Bold";
-	src: url("/assets/fonts/SourceSansPro-Bold.woff2") format("woff2"), url("/assets/fonts/SourceSansPro-Bold.woff") format("woff");
+	src: url("../assets/fonts/SourceSansPro-Bold.woff2") format("woff2"), url("../assets/fonts/SourceSansPro-Bold.woff") format("woff");
 	font-display: swap;
 }
 
